@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite">
+    <parameter name="browser" value="firefox" />
+    <test name="Regression Test" preserve-order="true" parallel="classes">
+        <classes>
+            <class name="test.RegisterTest" />
+
+        </classes>
+    </test>
+</suite>
